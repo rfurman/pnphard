@@ -4,13 +4,6 @@ title: Home
 permalink: /blems/
 redirect_from: "/"
 ---
-
-## What is a hard problem?
-
-So far the [Riemann Hypothesis](/blems/riemann/).
-
-There are many other problems to discuss and we are [seeking volunteer editors](mailto:rcf@acm.org) to own these.
-
 ## What makes a Wrong Proof profound?
 
 A proof that fails due to an algebraic- or arithmetic-error only reduces the search space by one.  A proof that fails due to a fundamental obstacle can shed light on an entire class of approaches, and prune down the search tree.  Organizing and publishing these can help us move closer to a solution.
@@ -20,6 +13,13 @@ A proof that fails due to an algebraic- or arithmetic-error only reduces the sea
 This is not meant for sharing new work, getting feedback on attempted solutions, or attempting to prove the Riemann Hypothesis.
 
 This is community-driven and you can [edit it on Github](http://github.com/rfurman/pnphard/) or [chat and discuss on Discord](https://discord.gg/5aZ3VAB).
+
+## What is a hard problem?
+
+So far the [Riemann Hypothesis](/blems/riemann/).
+
+There are many other problems to discuss and we are [seeking volunteer editors](mailto:rcf@acm.org) to own these.
+
 
 
 <!-- Begin MailChimp Signup Form -->
