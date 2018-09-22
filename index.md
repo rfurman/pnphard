@@ -4,9 +4,9 @@ title: Home
 permalink: /blems/
 redirect_from: "/"
 ---
-## What makes a Wrong Proof profound?
+## What makes a wrong proof profound?
 
-A proof that fails due to an algebraic- or arithmetic-error only reduces the search space by one.  A proof that fails due to a fundamental obstacle can shed light on an entire class of approaches, and prune down the search tree.  Organizing and publishing these can help us move closer to a solution.
+A proof that fails due to an algebraic- or arithmetic-error only reduces the search space by one.  A proof that fails due to a fundamental obstacle can shed light on an entire class of approaches, and prune down the search tree.  Occasionally a proof can fail so profoundly that it results in a [new field of mathematics](http://people.math.gatech.edu/~jrabinoff6/mathcamp/lectures.pdf).  Organizing and publishing these can help us move closer to a solution.
 
 ## What is this page?
 
@@ -14,9 +14,9 @@ This is not meant for sharing new work, getting feedback on attempted solutions,
 
 This is community-driven and you can [edit it on Github](http://github.com/rfurman/pnphard/) or [chat and discuss on Discord](https://discord.gg/5aZ3VAB).
 
-## What is a hard problem?
+## Which hard problems do we cover?
 
-So far the [Riemann Hypothesis](/blems/riemann/).
+So far, the [Riemann Hypothesis](/blems/riemann/).
 
 There are many other problems to discuss and we are [seeking volunteer editors](mailto:rcf@acm.org) to own these.
 
