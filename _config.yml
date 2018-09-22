@@ -1,1 +1,78 @@
-theme: jekyll-theme-cayman
+# External gems
+# See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+exclude:
+  - "/vendor/"
+
+# Site settings
+title: Profound Non-Proofs of Hard Problems
+subtitle: "Because negative results are just as important in pure research"
+email: rcf@acm.org
+name: Ralph Furman
+description: >
+  A community organizing approaces to the Riemann Hypothesis and other hard problems.
+baseurl: ""
+url: "http://pnphard.pro" # the base hostname & protocol for your site
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
+
+# Build settings
+markdown: kramdown
+inter_post_navigation: false
+highlightjs_theme: "monokai-sublime"
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Disqus comments
+disqus_shortname: pnphard
+
+# Google analytics
+ga_tracking_id: "UA-124258874-2"
+
+social:
+  - name: GitHub
+    icon: github
+    username: pnphard
+    url: https://github.com/rfurman/pnphard
+    desc: Contribute to this website
+    share: false
+
+  - name: Reddit
+    icon: reddit
+    username:
+    url:
+    desc: Share to Reddit
+    share: true
+
+  - name: "Hacker News"
+    icon: hacker-news
+    username:
+    url:
+    desc: Share to Hacker News
+    share: false
+
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    fb_image: "/assets/logo.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
+
+    twitter_image: "/assets/logo.png"
+
+    os_repo: "https://github.com/rfurman/pnphard"
+    os_rcs_type: "git"
+    os_src: "git@github.com:rurman/pnphard.git"
