@@ -71,8 +71,20 @@ History
 ~1907
 : [Littlewood](https://en.wikipedia.org/wiki/John_Edensor_Littlewood) is given the Riemann Hypothesis as a thesis problem.  
 
+1914
+: Hardy proves that there are infinitely many zeros on the critical line, later improved to positive proportions by Selberg, Levinson, and Conrey.
+
 ~1950s
-: Selberg **
+: Atle Selberg works on the Riemann Hypothesis but ends up developing [a major field of study](https://en.wikipedia.org/wiki/Selberg_trace_formula)
+
+~1969
+: Paul Cohen works on the Riemann Hypothesis and is not heard from again (kidding)
+
+1973
+: Montgomery notices that the zeros behave statistically like eigenvalues of large random matrices, which kicks of the study of [Riemann Zeros and Random Matrix Theory](http://www.bourbaphy.fr/keating.pdf)
+
+1976
+: The [Miller-Rabin](https://en.wikipedia.org/wiki/Miller–Rabin_primality_test) primality test runs in polynomial time but only assuming the [Extended Riemann Hypothesis](https://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis#Extended_Riemann_hypothesis_(ERH))
 
 2000
 : The Clay Math Institute listed its seven [Millenium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems), each carrying a $1M prize and meant to be one of the hardest unsolved problems.  The Riemann Hypothesis was one of these.
