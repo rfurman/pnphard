@@ -38,7 +38,7 @@ jekyll-archives:
 disqus_shortname: pnphard
 
 # Google analytics
-ga_tracking_id: "UA-124258874-2"
+# ga_tracking_id: "UA-126262089-1"
 
 social:
   - name: GitHub
