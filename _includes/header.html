@@ -12,14 +12,11 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for page in site.pages %}
-          {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <li class="nav-link"><a href="/">Home</a>
+        <li class="nav-link"><a href="/blems/riemann/">Riemann Hypothesis</a>
         <li class="nav-link"><a href="http://github.com/rfurman/pnphard/">Contribute</a>
         <li class="nav-link"><a href="https://discord.gg/5aZ3VAB">Chat</a>
-        <li class="nav-link"><a href="mailto:rcf@acm.org">Email</a>
+        <li class="nav-link"><a href="mailto:rfurman@alumni.stanford.edu">Email</a>
       </ul>
     </nav>
   </div>
