@@ -5,16 +5,12 @@ permalink: /blems/riemann/
 ---
 
 
-*NOTE*{: style="color: red"}:
-The Fields Medalist [Sir Michael Atiyah](https://en.wikipedia.org/wiki/Michael_Atiyah) has [claimed a proof](https://twitter.com/hlforum/status/1042670700652318720?s=21) and is [presenting](https://www.heidelberg-laureate-forum.org/) this Monday Sept 24, although there is no additional context for this.
-
-
-
 Resources
 =======================
 
 For an overview there is:
 * a great [explanation by Brian Conrey](https://www.ams.org/notices/200303/fea-conrey-web.pdf)
+* another great [exposition by Jorgen Veisdal](https://medium.com/@JorgenVeisdal/the-riemann-hypothesis-explained-fa01c1f75d3f)
 * a detailed [Wikipedia article](https://en.wikipedia.org/wiki/Riemann_hypothesis)
 * an [introduction by Chris Caldwell](https://primes.utm.edu/notes/rh.html) .
 
@@ -48,6 +44,8 @@ $$\zeta(s) = 2^s\pi^{s-1}\ \sin\left(\frac{\pi s}{2}\right)\ \Gamma(1-s)\ \zeta(
 
 \\(\zeta(s)\\) can be expressed both as a product over primes and a product over its zeros, there is a Fourier duality between primes and zeros, which leads to an
 [Explicit Formula](https://en.wikipedia.org/wiki/Explicit_formulae_(L-function)#Weil's_explicit_formula) turning a sum over primes into a sum of zeros and vice versa.  In particular this gives an explicit formula for [the number of primes up to x](http://empslocal.ex.ac.uk/~mwatkins/zeta/NTfourier.htm) as a sum of waves with discrete frequencies determines by the zeros.
+
+![approximating pi(x)](/assets/pi_zeta.gif)
 
 History
 =======================
