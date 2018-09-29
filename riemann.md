@@ -1,25 +1,48 @@
 ---
-layout: page
+layout: article
 title: "Profound Non-Proofs of: Riemann Hypothesis"
 permalink: /blems/riemann/
 ---
+
+Posts
+=======================
+<ul class="post-list">
+  {% for post in site.categories.riemann %}
+  <li>
+    <h4>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h4>
+    <section class="post-excerpt" itemprop="description">
+      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+    </section>
+    <section class="post-meta">
+      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+    </section>
+  </li>
+  {% if forloop.last == false %}
+  <hr>
+  {% endif %}
+  {% endfor %}
+</ul>
 
 
 Resources
 =======================
 
-For an overview there is:
+*For an overview there is*:
 * a great [explanation by Brian Conrey](https://www.ams.org/notices/200303/fea-conrey-web.pdf)
 * another great [exposition by Jorgen Veisdal](https://medium.com/@JorgenVeisdal/the-riemann-hypothesis-explained-fa01c1f75d3f)
 * a detailed [Wikipedia article](https://en.wikipedia.org/wiki/Riemann_hypothesis)
 * an [introduction by Chris Caldwell](https://primes.utm.edu/notes/rh.html) .
 
-For further reading there are some great books:
+*For further reading there are some great books*:
 * [Edwards](https://www.amazon.com/Riemanns-Zeta-Function-Harold-Edwards/dp/0486417409) presents the historical context and intuition, along with a translation of Riemann's original paper, and detailed proofs.
 * [Titchmarsh](https://www.amazon.com/Theory-Riemann-Zeta-Function-Science-Publications/dp/0198533691) is somewhat more modern (for a 1986 book) and presents a wider range of results, great for diving into the complex analysis of the Zeta function.
 
-Also
+*For current research*
+* There are slides and videos from [Perspectives on the Riemann Hypothesis](https://aimath.org/rh2018/)
 
+*Also*
 * [On some reasons for doubting the Riemann Hypotheis](https://arxiv.org/abs/math/0311162) by Aleksandar Ivic.
 * [An Essay on the Riemann Hypothesis](http://www.alainconnes.org/docs/rhfinal.pdf) by Alain Connes
 

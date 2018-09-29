@@ -25,20 +25,24 @@ inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
+#jekyll-archives:
+#enabled:
+#- categories
+#- tags
+#layout: 'archive'
+#permalinks:
+#category: '/category/:name/'
+#tag: '/tag/:name/'
 
 # Disqus comments
 disqus_shortname: pnphard
 
 # Google analytics
 # ga_tracking_id: "UA-126262089-1"
+
+#descriptions:
+#  - cat: riemann-hypothesis
+#    desc: "Posts about the Riemann Hypothesis"
 
 social:
   - name: GitHub
@@ -60,7 +64,21 @@ social:
     username:
     url:
     desc: Share to Hacker News
-    share: false
+    share: true
+
+  - name: Twitter
+    icon: twitter
+    username: rfurmaniak
+    url: https://twitter.com/rfurmaniak
+    desc: Follow me on Twitter
+    share: true
+
+  - name: Facebook
+    icon: facebook
+    username: index.hlml
+    url:
+    desc: Friend me on Facebook
+    share: true
 
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
