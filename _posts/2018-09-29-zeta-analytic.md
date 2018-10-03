@@ -13,8 +13,9 @@ Given that the Riemann zeta function is defined by a few concrete sums and integ
 Consider the following properties of zeta and other L-functions \\(f(s)\\).
 1. \\(f(s)\\) is complex-analytic on \\(\mathbb{C}\\) except for possibly a finite set of poles.
 2. For some \\(\delta>0\\), \\(f(s)\\) is bounded when \\(\Re(s)>1+\delta\\).
-3. \\(f(s)\\) is of order 1, in other words polynomial growth on vertical lines:  \\(f(\sigma+i T) = O(n^{A_\sigma})\\) for every \\(\sigma\in\mathbb{R}\\).
-4. (Riemann Hypothesis) If \\(f(s)=0\\) and \\(0<\\Re(s)<1\\) then \\(\Re(s)=1/2\\)
+3. For all \\(\delta>0\\), \\(f(s)\\) is unbounded when \\(\Re(s)=1-\delta\\).
+4. \\(f(s)\\) is of order 1, in other words polynomial growth on vertical lines:  \\(f(\sigma+i T) = O(n^{A_\sigma})\\) for every \\(\sigma\in\mathbb{R}\\).
+5. (Riemann Hypothesis) If \\(f(s)=0\\) and \\(0<\\Re(s)<1\\) then \\(\Re(s)=1/2\\)
 
 There is no function that provably satisfies these properties, even though all Selberg Class functions are conjectured to.
 
